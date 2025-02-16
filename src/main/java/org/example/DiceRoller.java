@@ -7,9 +7,9 @@ import java.awt.event.ActionListener;
 import java.util.Random;
 
 public class DiceRoller extends JFrame implements ActionListener {
-//    private JLabel label;
-//    private JButton rollButton;
-//    private Random random;
+    private JLabel label;
+    private JButton rollButton;
+    private Random random;
 
 //    public DiceRoller() {
 //        setTitle("Dice Roller");
