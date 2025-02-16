@@ -31,11 +31,11 @@ public class DiceRoller extends JFrame implements ActionListener {
         setLocationRelativeTo(null);
     }
 
-//    @Override
-//    public void actionPerformed(ActionEvent e) {
-//        int roll = random.nextInt(6) + 1;
-//        label.setText("You rolled: " + roll);
-//    }
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        int roll = random.nextInt(6) + 1;
+        label.setText("You rolled: " + roll);
+    }
 
 //    public static void main(String[] args) {
 //        new DiceRoller();
