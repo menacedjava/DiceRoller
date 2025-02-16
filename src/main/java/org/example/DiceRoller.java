@@ -37,8 +37,8 @@ public class DiceRoller extends JFrame implements ActionListener {
         label.setText("You rolled: " + roll);
     }
 
-//    public static void main(String[] args) {
-//        new DiceRoller();
-//    }
+    public static void main(String[] args) {
+        new DiceRoller();
+    }
 
 }
